@@ -1,5 +1,5 @@
-import { miniappConfig } from "../../../../miniapp.config";
+import { minikitConfig } from "../../../../minikit.config";
 
 export async function GET() {
-  return Response.json(miniappConfig);
+  return Response.json(minikitConfig);
 }

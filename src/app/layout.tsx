@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { miniappConfig } from "../../miniapp.config";
+import { miniappConfig } from "../../minikit.config";
 
 export async function generateMetadata(): Promise<Metadata> {
   const appName = miniappConfig.miniapp.name;

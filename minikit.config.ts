@@ -3,7 +3,7 @@ const ROOT_URL =
     ? `${process.env.NEXT_PUBLIC_ROOT_URL}`
     : "http://localhost:3000";
 
-export const miniappConfig = {
+export const minikitConfig = {
   accountAssociation: {
     header: "",
     payload: "",
